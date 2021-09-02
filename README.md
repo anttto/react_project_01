@@ -1,9 +1,9 @@
 # React Start!!!!!!
 #### 기본 문법 익히기(2021.09.01 ~)
 
-기본 환경 : node.JS
+<br/>
 
-### 1. Settings
+### 1. Settings (node.JS)
 
   > (1) react 기본 환경 설치 (npx 이용)
   ```
