@@ -69,6 +69,7 @@ function App() {
       <ul>
         <li>asdkjnasjkdnas</li>
         <li>asdkjnasjkdnas</li>
+        <li>asdkjnasjkdnas</li>
       </ul>
       {foodILike.map((item) => {
         return <Food key={item.id} name={item.name} src={item.image} rating={item.rating} />
