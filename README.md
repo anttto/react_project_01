@@ -31,10 +31,23 @@
 
   ReactDOM.render(
     <React.StrictMode>
-      <App />
+      <App />    //app.js 의 export 컴포넌트가 들어감
     </React.StrictMode>,
-    document.getElementById('root')
+    document.getElementById('root')   //기본 페이지(index.html)의 root(Id) 공간 안, 가상의 Dom 자리를 마련하는 형식  
   );
   ```
-  > /src/app.js
+  > /src/app.js.  //실제 컴포넌트 구성
+  ```
+  import React from 'react';
+
+  const App = () => {
+    return (
+      <div>
+        //JSX 영역
+      </div>
+    );
+  };
+
+  export default App;
+  ```
 
