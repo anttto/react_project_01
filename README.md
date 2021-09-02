@@ -23,7 +23,7 @@
 
   > /public/index.html   (index 전체 문서 틀)   
      
-  > /src/index.js   (ReactDom 을 Rendering 하는 기본 init 개념의 컨트롤러)
+  > /src/index.js   (ReactDom을 Rendering 하는 기본 init 개념의 컨트롤러)
   ```
   import React from 'react';
   import ReactDOM from 'react-dom';
