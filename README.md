@@ -21,9 +21,9 @@
 
 ### 2. Basic Structure
 
-  > /public/index.html //실제 index 전체 문서 틀   
+  > /public/index.html   (실제 index 전체 문서 틀)   
      
-  > /src/index.js //ReactDom 을 Rendering 하는 기본 init 개념의 컨트롤러
+  > /src/index.js   (ReactDom 을 Rendering 하는 기본 init 개념의 컨트롤러)
   ```
   import React from 'react';
   import ReactDOM from 'react-dom';
@@ -36,7 +36,7 @@
     document.getElementById('root')   //기본 페이지(index.html)의 root(Id) 공간 안, 가상의 Dom 자리를 마련하는 형식  
   );
   ```
-  > /src/app.js.  //실제 컴포넌트 구성
+  > /src/app.js  (실제 컴포넌트 구성)
   ```
   import React from 'react';
 
