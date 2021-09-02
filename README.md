@@ -3,7 +3,7 @@
 
 <br/>
 
-### 1. Settings (node.JS)
+### 1. Settings 
 
   > (1) react 기본 환경 설치 (npx 이용)
   ```
