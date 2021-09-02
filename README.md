@@ -22,6 +22,7 @@
 ### 2. Basic Structure
 
   > /public/index.html //실제 index 전체 문서 틀   
+     
   > /src/index.js //ReactDom 을 Rendering 하는 기본 init 개념의 컨트롤러
   ```
   import React from 'react';
