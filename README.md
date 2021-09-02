@@ -16,11 +16,8 @@
     "build": "react-scripts build"  //빌드
   },
   ```
-  > (3) Git remote push
+  > (3) Git remote push   
   
-     
-    
-       
 ### 2. Basic Structure
 
   > /public/index.html //실제 index 전체 문서 틀   
