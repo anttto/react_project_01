@@ -7,7 +7,7 @@
 
   - (1) react 기본 환경 설치
   ```
-  asdasdad
+  npx create-react-app //<Project Name>
   ```
   - 
 
