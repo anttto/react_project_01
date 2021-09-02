@@ -38,6 +38,7 @@
   ```
   > /src/app.js  (실제 컴포넌트 구성)
   ```
+  (예시)
   import React from 'react';
 
   const App = () => {
