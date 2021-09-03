@@ -70,5 +70,6 @@
 
   export default App;
   ```
-  > 데이터를 이용하는 방식에는 props와 state가 존재함
-  > 중요도는 State >>> props
+  > 데이터를 이용하는 방식에는 props와 state가 존재함 (중요도는 State >>>> props)    
+
+### 3. Props & State
