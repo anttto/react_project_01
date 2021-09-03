@@ -49,10 +49,12 @@
     );
   };
 
-  export default App;
-  ```
-  <br/>
-  ```
+  export default App;  
+  
+  //
+  //
+  //  
+  
   (예시2) - 클래스형 컴포넌트
   import React, { Component } from 'react';   //React.Component 메소드 정의
 
