@@ -36,9 +36,9 @@
     document.getElementById('root')   //기본 페이지(index.html)의 root(Id) 공간 안, 가상의 Dom 자리를 마련하는 형식  
   );
   ```
-  > /src/app.js  (실제 컴포넌트 구성)
+  > /src/app.js  (컴포넌트 구성)
   ```
-  (예시)
+  (예시1) - 함수형 컴포넌트
   import React from 'react';
 
   const App = () => {
@@ -51,4 +51,21 @@
 
   export default App;
   ```
+  <br/>
+  ```
+  (예시2) - 클래스형 컴포넌트
+  import React, { Component } from 'react';   //React.Component 메소드 정의
 
+  class App extends Component {
+    render() {
+      return (
+        <div>
+          //JSX 영역
+        </div>
+      );
+    }
+  }
+
+  export default App;
+  ```
+  > /src/app.js  (컴포넌트 구성)
