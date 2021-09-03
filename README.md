@@ -72,4 +72,67 @@
   ```
   > 데이터를 이용하는 방식에는 props와 state가 존재함 (중요도는 State >>>> props)    
 
-### 3. Props & State
+<br/>
+
+### 3. Props & State   
+
+##### state와 props의 차이점 [React 공식 커뮤니티 인용](https://ko.reactjs.org/docs/faq-state.html)
+props (“properties”의 줄임말) 와 state 는 일반 JavaScript 객체입니다. 두 객체 모두 렌더링 결과물에 영향을 주는 정보를 갖고 있는데, 한 가지 중요한 방식에서 차이가 있습니다. props는 (함수 매개변수처럼) 컴포넌트에 전달되는 반면 state는 (함수 내에 선언된 변수처럼) 컴포넌트 안에서 관리됩니다.
+  
+  > Props 예시 (함수형)
+  
+  ```
+  import React from "react";
+  
+  function Food({ favourite }) {
+    return <h1>I like {favourite}</h1>;
+  }
+
+  function App() {
+    return (
+      <div>
+        <h1>Hello</h1>
+        <Potato />
+        <Food favourite="kimchi" />
+        <Food favourite="ramen" />
+        <Food favourite="chukumi" />
+      </div>
+    );
+  }
+  ```
+
+<br/>
+ > State 예시 (클래스형)
+  
+  ```
+  import React, { Component } from 'react';
+
+  class App extends Component {
+    
+    //데이터 기본 값 선언
+    state = {
+      count: 0,
+    }
+    
+    //더하기
+    add = () => {
+      this.setState(current => ({ count: current.count + 1 }));
+    }
+
+    //빼기
+    minus = () => {
+      this.setState(current => ({ count: current.count - 1 }));
+    }
+    
+    //렌더링
+    render() {
+      return (
+        <div>
+          <h1>The number is: {this.state.count}</h1>
+          <button onClick={this.add}>Add</button>
+          <button onClick={this.minus}>Minus</button>
+        </div>
+      );
+    }
+  }
+  ```
