@@ -70,4 +70,5 @@
 
   export default App;
   ```
-  > /src/app.js  (컴포넌트 구성)
+  > 데이터를 이용하는 방식에는 props와 state가 존재함
+  > 중요도는 State >>> props
